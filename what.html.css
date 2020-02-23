@@ -1,6 +1,11 @@
 @charset "utf-8";
 body {}
 
+.container {
+    width: 90% !important;
+    max-width: 100% !important;
+}
+
 nav {
     background-color: burlywood !important;
 }

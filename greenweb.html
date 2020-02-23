@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <title>greenweb</title>
     <link href="greenweb.html.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="materialize.css">
 </head>
 
 <body>
-    <nav>
+    <!-- <nav>
         <div class="nav-content right">
             <a href="#">HOME</a>
             <a href="who.html">WHO WE ARE</a>
@@ -18,7 +19,35 @@
         </div>
         <img height="40px" width="100px" src="1543718.jpg" />
         <span>Name</span>
+	</nav> -->
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center black-text">Name</a>
+            <a href="#" class="brand-logo left"><img src="1543718.jpg" height="auto" width="80" /></a>
+            <ul class="right">
+                <li><a class="black-text" href="#">HOME</a></li>
+                <li><a class="black-text" href="who.html">WHO WE ARE</a></li>
+                <li><a class="black-text" href="what.html">WHAT WE DO</a></li>
+                <li><a class="black-text" href="https://www.youtube.com/watch?v=_2LLXnUdUIc">HOW WE DO</a></li>
+                <li><a class="black-text" href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
     </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col l6">
+                <h1 id="home-heading" class="white-text">A Heading</h1>
+            </div>
+            <div class="col l6">
+                <p id="home-text" class="flow-text white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae finibus leo, vel congue arcu. Morbi pellentesque feugiat iaculis. Suspendisse potenti. Cras a magna dui. Nulla ullamcorper, velit ut venenatis tincidunt, enim erat imperdiet
+                    purus, vel viverra eros nisl nec augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sed venenatis velit. Fusce vitae eleifend purus. Curabitur at nibh id neque feugiat posuere sed eu arcu.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="materialize.js"></script>
 </body>
 
 </html>
